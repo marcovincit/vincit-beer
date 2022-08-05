@@ -1147,12 +1147,8 @@ lesshat-selector {
 .arrow-text.in {
   transform: translateY(-50%) translateX(-50%) rotate(-90deg);
 }
-#menu-gallery {
-  width: 60px;
-}
-#menu-about {
-  width: 48px;
-}
+
+
 #logo a {
   width: 50px;
 }
