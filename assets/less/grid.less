@@ -1,0 +1,59 @@
+
+//modular grid
+@amount-modular-grid: 9;
+
+.loop-grid (@i) when (@i > 0) {
+
+  .col-@{i} {
+    width: 100%/9*@i;
+    position: absolute;
+  }
+
+  .row-@{i} {
+    height: 100%/9*@i;
+  }
+
+  .top-@{i} {
+    top: 100%/9*@i;
+  }
+
+  .bottom-@{i} {
+    top: auto;
+    bottom: 100%/9*@i;
+  }
+
+  .left-@{i} {
+    left: 100%/9*@i;
+  }
+
+  .right-@{i} {
+    left: auto;
+    right: 100%/9*@i;
+  }
+
+  .loop-grid(@i - 1);
+}
+
+
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0i;
+}
+
+.loop-grid(@amount-modular-grid);
+
+
+
+

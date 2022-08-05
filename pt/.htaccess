@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Página de contato
+  RewriteRule ^about/?$ /#about [NC,L]
+  RewriteRule ^gallery/?$ /#gallery [NC,L]
+  RewriteRule ^presentation/?$ /#presentation [NC,L]
+  RewriteRule ^main/?$ / [NC,L]
+
+</IfModule>
