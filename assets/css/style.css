@@ -726,7 +726,7 @@ lesshat-selector {
   z-index: 1000;
 }
 .bottle-image {
-  background: url("http://beer.marcovincit.com/assets/img/sprite.png") no-repeat;
+  background: url("http://beer.marcovincit.design/assets/img/sprite.png") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -2904,19 +2904,19 @@ lesshat-selector {
   z-index: 9999;
 }
 #gallery-photo-01 {
-  background-image: url('http://beer.marcovincit.com/assets/img/galeria/01.jpg');
+  background-image: url('http://beer.marcovincit.design/assets/img/galeria/01.jpg');
 }
 #gallery-photo-02 {
-  background-image: url('http://beer.marcovincit.com/assets/img/galeria/02.jpg');
+  background-image: url('http://beer.marcovincit.design/assets/img/galeria/02.jpg');
 }
 #gallery-photo-03 {
-  background-image: url('http://beer.marcovincit.com/assets/img/galeria/03.jpg');
+  background-image: url('http://beer.marcovincit.design/assets/img/galeria/03.jpg');
 }
 #gallery-photo-04 {
-  background-image: url('http://beer.marcovincit.com/assets/img/galeria/04.jpg');
+  background-image: url('http://beer.marcovincit.design/assets/img/galeria/04.jpg');
 }
 #gallery-photo-05 {
-  background-image: url('http://beer.marcovincit.com/assets/img/galeria/05.jpg');
+  background-image: url('http://beer.marcovincit.design/assets/img/galeria/05.jpg');
 }
 .in .gallery-nav-position-01 #gallery-photo-01 {
   -webkit-transform: translateY(0%) scale(1);
